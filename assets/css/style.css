@@ -23,9 +23,11 @@ body{
     width: 70%;
 
 }
+
 .content-center form{
     margin: 20px; 
 }
+
 .content-center input,
 .content-center button{
     width: 100%;
@@ -33,10 +35,43 @@ body{
     border: none;
     outline: none;
 }
-
 .content-center input{
-    border-bottom-color: #8f4fe49c;;
+    border-bottom-color: #c8a4f9ab;
     border-bottom-style: solid; 
     border-bottom-width: 2px;
     margin-bottom: 10px;
 }
+.content-center input:focus{
+    border-bottom-color: #8f4fe4;
+}
+
+.content-center button{
+    background-color: #446fe0e6;
+    color: #fff;
+}
+.content-center button:hover{
+    background-color: #294ba7;
+    cursor: pointer;
+}
+.content-center button:active{
+    background-color: #002791;
+}
+
+header a{
+    color: #666;
+    text-decoration: none;
+}
+header a:visited{
+    color: #000;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header a:focus{
+    color: red;
+}
+header a:active{
+    color: royalblue;
+}
+
+
