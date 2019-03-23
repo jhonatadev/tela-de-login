@@ -1,3 +1,17 @@
 body{
     background: azure;
 }
+
+.content-center{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.content-center .text-center{
+    text-align: center;
+}
+
+.content-center img{
+    width: 70%;
+}
