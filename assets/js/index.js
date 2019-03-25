@@ -1,10 +1,7 @@
-// Trabalhando com variáveis
+document.getElementById('btn-submit').addEventListener('click', e => {
+    console.log('botão foi clicado');
+});
 
-let email = 'devupacademy@gmail.com';
-// const email = 'devupacademy@gmail.com';
-
-email = 'jhonatadev@tuta.io';
-
-console.log(email);
-console.log('O seu e-mail é: ' + email);
-console.log(`O seu e-mail é ${email}`);
+document.getElementById('form-login').addEventListener('mouseenter', e => {
+    console.log('O mouse passou sobre o formulario');
+});
