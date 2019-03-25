@@ -19,5 +19,21 @@ document.querySelector('#form-login').addEventListener('submit', e => {
 
     console.log(email, password);
     
+    let json = {
+        email: email,
+        password: password
+    };    
+    console.log(json);
 
+
+    let stringJSON = JSON.stringify(json);
+    console.log(stringJSON);
+
+
+    let jsonParse = JSON.parse(stringJSON);
+    console.log(jsonParse);
+    
+
+    
+    
 });
