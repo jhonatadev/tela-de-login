@@ -44,6 +44,7 @@ body{
 }
 .content-center input:focus{
     border-bottom-color: #8f4fe4;
+    border-bottom-style: dashed;
 }
 
 .content-center button{
